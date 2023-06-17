@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(52, 6, 6);
+    align-items: center;
+    justify-content : center;
+}
+
+h1{
+    text-align: center;
+    color: rgb(4, 251, 33);
+
+}
+
+#backcard{
+    padding: 40px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+#ccard{
+    
+    background-color: rgb(4, 251, 33);
+    border-radius: 5px;
+    border: 5px rgb(4, 251, 33) solid;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content : center;
+    height: 500px;
+    
+}
+
+#cardinner{
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    padding: 50%;
+}
+
+
+  .text{
+    margin: 5px;
+    width: 400px;
+    padding: 20px 30px;
+    border: none;
+    background-color: rgb(237, 235, 235);
+    color: rgb(128, 125, 125);
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 20px;
+  }
+
+  
+
+  .botton{
+    margin: 5px;
+    padding: 20px 20px;
+    border: none;
+    background-color: rgb(52, 6, 6);
+    border-radius: 10px;
+    color: #fff;
+    width: 400px;
+    font-size: 20px;
+  }
+
+  #items{
+    border: 2px black solid;
+
+  }
+
+  .table table td{
+    border: 2px black solid;
+    background-color: #fff;
+  }
