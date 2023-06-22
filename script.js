@@ -1,7 +1,7 @@
 
 var form = document.getElementById("form");
-var ntitle = document.getElementById("nTitle");
-var nbody = document.getElementById("nBody");
+var ntitle = document.getElementById("note-title");
+var nbody = document.getElementById("note-body");
 
 
 form.addEventListener('submit', addNote);
@@ -9,7 +9,7 @@ form.addEventListener('submit', addNote);
 function addNote(e){
     e.preventDefault();
 
-    if (ntitle.value == '' || nbody.value == ''){
+    if (note-title.value == '' || note-body.value == ''){
         alert("Please fill all field!");
     }
 
@@ -19,9 +19,9 @@ function addNote(e){
         tr.className = 'item';
 
         var td1 = document.createElement('td');
-        td1.appendChild(document.createTextNode(nTitle.value));
+        td1.appendChild(document.createTextNode(note-title.value));
         var span = document.createElement('span');
-        span.className = 'nBody'
+        span.className = 'note-body'
     }
 
 }
