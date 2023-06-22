@@ -10,7 +10,7 @@ h1{
 
 }
 
-#backcard{
+#back-card{
     padding: 40px;
     border-radius: 20px;
     position: relative;
@@ -20,7 +20,7 @@ h1{
     justify-content: center;
 } 
 
-#ccard{
+#card{
     
     background-color: rgb(4, 251, 33);
     border-radius: 5px;
@@ -33,7 +33,7 @@ h1{
     
 }
 
-#cardinner{
+#card-inner{
     /* display: flex; */
     align-items: center;
     justify-content: center;
@@ -55,7 +55,7 @@ h1{
 
   
 
-  .botton{
+  .button{
     margin: 5px;
     padding: 20px 20px;
     border: none;
