@@ -1,7 +1,7 @@
 
-let form = document.getElementById("form");
-let ntitle = document.getElementById("note-title");
-let nbody = document.getElementById("note-body");
+var form = document.getElementById("form");
+var ntitle = document.getElementById("note-title");
+var nbody = document.getElementById("note-body");
 
 
 form.addEventListener('submit', addNote);
@@ -31,6 +31,19 @@ function addNote(e){
         btn1.appendChild(document.createTextNode('view'));
         btn1.setAttribute('id','vw');
         td2.appendChild(btn1);
+
+        let td3 = document.createElement('td');
+        td3.className = 'btcelld';
+        let btn2 = document.createElement('button');
+        btn2.appendChild(document.createTextNode('Delete'));
+        btn2.setAttribute('id','del');
+        td3.appendChild(btn2);
+
+        tr.appendChild(td1);
+        tr.appendChild(td2);
+        tr.appendChild(td3);
+
+        console.log(td3);
     }
 
 }
