@@ -66,12 +66,22 @@ h1{
     font-size: 20px;
   }
 
+  .table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   #items{
-    border: 2px black solid;
+    border: 2px rgb(4, 251, 33) solid;
+    align-items: center;
+    background-color: rgb(4, 251, 33);
+    
 
   }
 
   .table table td{
-    border: 2px black solid;
-    background-color: #fff;
+    border: 2px rgb(4, 251, 33) solid;
+    background-color: floralwhite;
+    align-items: center;
   }

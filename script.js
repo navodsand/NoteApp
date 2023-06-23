@@ -9,7 +9,7 @@ form.addEventListener('submit', addNote);
 function addNote(e){
     e.preventDefault();
 
-    if (note-title.value == '' || note-body.value == ''){
+    if (ntitle.value == '' || nbody.value == ''){
         alert("Please fill all field!");
     }
 
@@ -19,9 +19,9 @@ function addNote(e){
         tr.className = 'item';
 
         let td1 = document.createElement('td');
-        td1.appendChild(document.createTextNode(note-title.value));
+        td1.appendChild(document.createTextNode(ntitle.value));
         let span = document.createElement('span');
-        span.className = 'note-body';
+        span.className = 'nbody';
         span.appendChild(document.createTextNode(nbody.value));
         td1.appendChild(span);
 
