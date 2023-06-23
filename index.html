@@ -8,6 +8,9 @@
     <script defer src="script.js"></script>
     <title>Document</title>
   </head>
+
+  //NoteForm
+
   <body>
     <h1>Add Your Note</h1>
     <div id="back-card">
@@ -17,7 +20,6 @@
             <input
               id="note-title"
               class="text"
-              value="title"
               placeholder="Title"
               type="text"
               name="title"
@@ -32,12 +34,48 @@
             <button id="clear-Btn" class="button" type="reset">
               Clear Note
             </button>
-            <button onclick="" id="list-Btn" class="button" type="submit">
-              <a href="nlist.html">Note List </a>
-            </button>
           </form>
         </div>
       </div>
+    </div>
+
+    //NoteTable
+
+    <div id="tbldiv" class="table">
+      <table id="items">
+        <tr>
+          <th>Title</th>
+          <th>View</th>
+          <th>Delete</th>
+        </tr>
+        <tr>
+          <td>Note 01</td>
+          <td class="btcellv">
+            <button>View</button>
+          </td>
+          <td class="btcelld">
+            <button>Delete</button>
+          </td>
+        </tr>
+        <tr>
+          <td>Note 02</td>
+          <td class="btcellv">
+            <button>View</button>
+          </td>
+          <td class="btcelld">
+            <button>Delete</button>
+          </td>
+        </tr>
+        <tr>
+          <td>Note 03</td>
+          <td class="btcellv">
+            <button>View</button>
+          </td>
+          <td class="btcelld">
+            <button>Delete</button>
+          </td>
+        </tr>
+      </table>
     </div>
   </body>
 </html>
